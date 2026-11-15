@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "question": "Tell me about the Aurelia & Co. Cashmere Wrap Scarf.",
+    "expected_answer_contains": ["cashmere", "wrap", "scarf"],
+    "expected_doc_type": "product",
+    "category": "product_lookup",
+    "is_answerable": true
+  },
+  {
+    "id": 2,
+    "question": "What leather bags do you carry?",
+    "expected_answer_contains": ["leather", "bag"],
+    "expected_doc_type": "product",
+    "category": "product_lookup",
+    "is_answerable": true
+  },
+  {
+    "id": 3,
+    "question": "Do you have any candles or home fragrances?",
+    "expected_answer_contains": ["candle"],
+    "expected_doc_type": "product",
+    "category": "product_lookup",
+    "is_answerable": true
+  },
+  {
+    "id": 4,
+    "question": "What dresses are available right now?",
+    "expected_answer_contains": ["dress"],
+    "expected_doc_type": "product",
+    "category": "product_lookup",
+    "is_answerable": true
+  },
+  {
+    "id": 5,
+    "question": "Show me your throw blankets.",
+    "expected_answer_contains": ["throw", "blanket"],
+    "expected_doc_type": "product",
+    "category": "product_lookup",
+    "is_answerable": true
+  },
+  {
+    "id": 6,
+    "question": "What men's linen shirts do you offer?",
+    "expected_answer_contains": ["linen", "shirt"],
+    "expected_doc_type": "product",
+    "category": "product_lookup",
+    "is_answerable": true
+  },
+  {
+    "id": 7,
+    "question": "Tell me about your wool jackets.",
+    "expected_answer_contains": ["wool", "jacket"],
+    "expected_doc_type": "product",
+    "category": "product_lookup",
+    "is_answerable": true
+  },
+  {
+    "id": 8,
+    "question": "What boots does Aurelia & Co. sell?",
+    "expected_answer_contains": ["boot"],
+    "expected_doc_type": "product",
+    "category": "product_lookup",
+    "is_answerable": true
+  },
+  {
+    "id": 9,
+    "question": "Do you have silk products?",
+    "expected_answer_contains": ["silk"],
+    "expected_doc_type": "product",
+    "category": "product_lookup",
+    "is_answerable": true
+  },
+  {
+    "id": 10,
+    "question": "What accessories are under $100?",
+    "expected_answer_contains": ["accessories"],
+    "expected_doc_type": "product",
+    "category": "product_lookup",
+    "is_answerable": true
+  },
+  {
+    "id": 11,
+    "question": "Compare the Cashmere Wrap Scarf and the Merino Wool Throw Blanket in terms of material and price.",
+    "expected_answer_contains": ["cashmere", "merino", "price"],
+    "expected_doc_type": "product",
+    "category": "product_comparison",
+    "is_answerable": true
+  },
+  {
+    "id": 12,
+    "question": "What's the difference between the Riviera Linen Shirt and the Oxford Cotton Shirt?",
+    "expected_answer_contains": ["linen", "cotton"],
+    "expected_doc_type": "product",
+    "category": "product_comparison",
+    "is_answerable": true
+  },
+  {
+    "id": 13,
+    "question": "Which is more expensive, the Leather Tote Bag or the Suede Crossbody Bag?",
+    "expected_answer_contains": ["leather", "suede", "price"],
+    "expected_doc_type": "product",
+    "category": "product_comparison",
+    "is_answerable": true
+  },
+  {
+    "id": 14,
+    "question": "Compare your Chelsea boots with the Ankle boots.",
+    "expected_answer_contains": ["chelsea", "ankle", "boot"],
+    "expected_doc_type": "product",
+    "category": "product_comparison",
+    "is_answerable": true
+  },
+  {
+    "id": 15,
+    "question": "Between the Soy Candle and the Reed Diffuser, which lasts longer?",
+    "expected_answer_contains": ["candle", "diffuser"],
+    "expected_doc_type": "product",
+    "category": "product_comparison",
+    "is_answerable": true
+  },
+  {
+    "id": 16,
+    "question": "What is Aurelia & Co.'s return policy?",
+    "expected_answer_contains": ["30 days", "return"],
+    "expected_doc_type": "policy",
+    "category": "policy_question",
+    "is_answerable": true
+  },
+  {
+    "id": 17,
+    "question": "How much does express shipping cost?",
+    "expected_answer_contains": ["express", "$12"],
+    "expected_doc_type": "policy",
+    "category": "policy_question",
+    "is_answerable": true
+  },
+  {
+    "id": 18,
+    "question": "Is there free shipping and what's the minimum order?",
+    "expected_answer_contains": ["free", "$75"],
+    "expected_doc_type": "policy",
+    "category": "policy_question",
+    "is_answerable": true
+  },
+  {
+    "id": 19,
+    "question": "What does the warranty cover?",
+    "expected_answer_contains": ["warranty", "1 year", "craftsmanship"],
+    "expected_doc_type": "policy",
+    "category": "policy_question",
+    "is_answerable": true
+  },
+  {
+    "id": 20,
+    "question": "How does Aurelia & Co. handle my personal data?",
+    "expected_answer_contains": ["privacy", "data"],
+    "expected_doc_type": "policy",
+    "category": "policy_question",
+    "is_answerable": true
+  },
+  {
+    "id": 21,
+    "question": "What sizes does the Cashmere Wrap Scarf come in?",
+    "expected_answer_contains": ["size"],
+    "expected_doc_type": "product",
+    "category": "sizing",
+    "is_answerable": true
+  },
+  {
+    "id": 22,
+    "question": "Do you carry XL in men's jackets?",
+    "expected_answer_contains": ["XL"],
+    "expected_doc_type": "product",
+    "category": "sizing",
+    "is_answerable": true
+  },
+  {
+    "id": 23,
+    "question": "I usually wear a size 8 in shoes. What size should I pick for your boots?",
+    "expected_answer_contains": ["size"],
+    "expected_doc_type": "product",
+    "category": "sizing",
+    "is_answerable": true
+  },
+  {
+    "id": 24,
+    "question": "Can you look up SKU AUR-CAS-BLK-M?",
+    "expected_answer_contains": ["AUR-CAS-BLK-M"],
+    "expected_doc_type": "product",
+    "category": "sku_lookup",
+    "is_answerable": true
+  },
+  {
+    "id": 25,
+    "question": "What product has the SKU AUR-LTH-TOT-BRN?",
+    "expected_answer_contains": ["AUR-LTH-TOT-BRN"],
+    "expected_doc_type": "product",
+    "category": "sku_lookup",
+    "is_answerable": true
+  },
+  {
+    "id": 26,
+    "question": "Find the item with SKU AUR-LIN-SHT-WHT-L.",
+    "expected_answer_contains": ["AUR-LIN-SHT-WHT-L"],
+    "expected_doc_type": "product",
+    "category": "sku_lookup",
+    "is_answerable": true
+  },
+  {
+    "id": 27,
+    "question": "Do you sell electronics or laptops?",
+    "expected_answer_contains": [],
+    "expected_doc_type": "product",
+    "category": "unanswerable",
+    "is_answerable": false
+  },
+  {
+    "id": 28,
+    "question": "Can I buy groceries from Aurelia & Co.?",
+    "expected_answer_contains": [],
+    "expected_doc_type": "product",
+    "category": "unanswerable",
+    "is_answerable": false
+  },
+  {
+    "id": 29,
+    "question": "What are your store hours in Tokyo?",
+    "expected_answer_contains": [],
+    "expected_doc_type": "faq",
+    "category": "unanswerable",
+    "is_answerable": false
+  },
+  {
+    "id": 30,
+    "question": "Do you offer pet clothing or accessories for dogs?",
+    "expected_answer_contains": [],
+    "expected_doc_type": "product",
+    "category": "unanswerable",
+    "is_answerable": false
+  },
+  {
+    "id": 31,
+    "question": "What's the capital of France?",
+    "expected_answer_contains": [],
+    "expected_doc_type": "faq",
+    "category": "off_topic",
+    "is_answerable": false
+  },
+  {
+    "id": 32,
+    "question": "Can you write me a poem about the ocean?",
+    "expected_answer_contains": [],
+    "expected_doc_type": "faq",
+    "category": "off_topic",
+    "is_answerable": false
+  },
+  {
+    "id": 33,
+    "question": "What's the latest score in the NBA finals?",
+    "expected_answer_contains": [],
+    "expected_doc_type": "faq",
+    "category": "off_topic",
+    "is_answerable": false
+  },
+  {
+    "id": 34,
+    "question": "Explain quantum computing in simple terms.",
+    "expected_answer_contains": [],
+    "expected_doc_type": "faq",
+    "category": "off_topic",
+    "is_answerable": false
+  },
+  {
+    "id": 35,
+    "question": "How do I fix a flat tire on my bicycle?",
+    "expected_answer_contains": [],
+    "expected_doc_type": "faq",
+    "category": "off_topic",
+    "is_answerable": false
+  }
+]
